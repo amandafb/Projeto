@@ -1,0 +1,34 @@
+Layout: 
+Grid nas páginas inicias 
+Flex nas de Contato
+As outras quem for desenvolver escolhe	
+ 
+ 
+Cabeçalho:  
+com cor de fundo utilizando gradiente, 
+logomarca 
+menu horizontal sem dropdown, utilizar as listas não ordenadas
+barra de pesquisa (campo + botão "buscar") 
+
+No conteúdo principal você deverá ter 3 seções:
+	Uma deverá ter uma coluna
+	outra deverá ter duas colunas  
+	outra ter 3 colunas
+	
+    1. Utilizar pelo menos duas imagens, e ajustar largura e altura pelo css.
+    2. Uma das imagens deverá ser posicionada com a função position.
+    3. Utilizar pelo menos um título alinhado ao centro com CSS.
+    4. Criar pelo menos um parágrafo com cores estilizadas pelo CSS e deixa-lo justificado.
+    5. Utilizar uma web-fonte em algum texto do seu projeto.
+    6. Em alguma página do projeto deve ser inserido um banner da soul code com posicionamento fixed ou stick 
+
+Rodapé
+	crie ícones para as principais redes sociais da empresa. 
+	Também poderá adicionar novamente a logomarca, e 
+	alguns links interessantes. 
+  
+Página de contato, 
+	que contenha um formulário estilizado para o envio de mensagens para a empresa. 
+	iframe 
+  
+No index deve ser inserido (comentário) no código o nome da equipe sendo 2 nomes dentro do <head> e os outros uma linha acima do fechamento </html>
