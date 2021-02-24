@@ -1,0 +1,44 @@
+:root {
+    --vermelho: #DF412C;
+    --branco: #FFFFFF;
+    --cinza: #A19F9F;
+    --preto: #000;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* Exemple de gradiente 
+
+background-image: linear-gradient(to top, #df412c, #f55f71, #f986ac, #f4afd8, #f0d4f3, #eddaef, #eae0eb, #e7e6e7, #d5d4d5, #c4c2c2, #b2b0b1, #a19f9f);
+
+*/
+
+/* FONTE 1 */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+font-family: 'Open Sans', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* FONTE 2 */
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+font-family: 'Poppins', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* FONTE 3 */
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+font-family: 'Montserrat', sans-serif; */
+
+/* --------------------------------------------------------------------------------------------- */
