@@ -12,6 +12,11 @@
   outline: 0;
 }
 
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+  font-family: "Open Sans", sans-serif;
+}
+
 /* Exemple de gradiente
   
   background-image: linear-gradient(to top, #df412c, #f55f71, #f986ac, #f4afd8, #f0d4f3, #eddaef, #eae0eb, #e7e6e7, #d5d4d5, #c4c2c2, #b2b0b1, #a19f9f);
@@ -97,15 +102,16 @@ img {
   list-style: none;
   float: left;
   position: relative;
-  top: 15px;
+  top: 20%;
   left: 130px;
+  padding: 0;
+  margin: 0;
 }
 
 .lista ul li {
   position: relative;
   float: left;
-
-  padding: 0 5px;
+  padding: 0px 5px;
   margin: 0 10px;
 }
 
@@ -129,6 +135,7 @@ button {
   left: 50px;
   border-radius: 10px;
   height: 30px;
+  width: 200px;
 }
 
 .botao button {
@@ -153,62 +160,130 @@ button {
 
 .top {
   width: 80%;
-  height: 200px;
-  border: solid 2px black;
-  margin: 20px auto;
+  height: 150px;
+  margin: 2% auto 0px auto;
+  text-align: center;
+}
+
+.top h1 {
+  margin-top: 10px;
+  font-size: 300%;
+  color: var(--cinza);
+}
+
+.top h1 em {
+  color: #000;
+}
+
+.top h3 {
+  margin-top: 3%;
 }
 
 .mid {
   display: flex;
   width: 80%;
-  height: 200px;
-  border: solid 2px black;
-  margin: 20px auto;
+  height: 300px;
+  margin: 1% auto;
   align-items: stretch;
+  margin-top: 0px;
 }
 
 .mid-left {
   width: 50%;
-  height: 180px;
-  border: solid 2px black;
+  height: 280px;
+
   margin: 10px;
+}
+
+.mid-left img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 }
 
 .mid-right {
   width: 50%;
-  height: 180px;
-  border: solid 2px black;
+  height: 280px;
+  background-image: url("imagens/back.jpg");
+  background-repeat: no-repeat;
   margin: 10px;
+}
+
+.mid-right h4, ul {
+  text-align: center;
+  margin: 5%;
+}
+
+.mid-right ul {
+  list-style: none;
+}
+
+.mid-right ul li{
+  margin: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin: 2%
 }
 
 .bottom {
   display: flex;
   width: 80%;
-  height: 200px;
-  border: solid 2px black;
-  margin: 20px auto;
+  height: 350px;
+  margin: 2% auto 10% auto;
   align-items: stretch;
+  text-align: center;
 }
 
 .bottom-left {
   width: 33%;
   height: 180px;
-  border: solid 2px black;
   margin: 10px;
+}
+
+.bottom-left h4{
+  margin-bottom: 8%;
+}
+
+.bottom-left em{
+  margin-top: 30px;
+}
+
+.bottom-left ul li{
+  margin-bottom: 8%;
 }
 
 .bottom-center {
   width: 33%;
   height: 180px;
-  border: solid 2px black;
   margin: 10px;
+}
+
+.bottom-center h4{
+  margin-bottom: 8%;
+}
+
+.bottom-center ul li{
+  margin-bottom: 8%;
 }
 
 .bottom-right {
   width: 33%;
   height: 180px;
-  border: solid 2px black;
   margin: 10px;
+}
+
+
+.bottom-right ul li{
+  margin-bottom: 5%;
+}
+
+
+.bottom-right h4{
+  margin-bottom: 8%;
 }
 
 /*
@@ -232,6 +307,7 @@ button {
   width: 100%;
   background-color: black;
   display: flex;
+  overflow-x: hidden;
 }
 
 .texto {
@@ -266,7 +342,7 @@ button {
 /*
   --------------------
   --------------------
-  FIM daEstilização do footer
+  FIM da Estilização do footer
   --------------------
   --------------------
   */
